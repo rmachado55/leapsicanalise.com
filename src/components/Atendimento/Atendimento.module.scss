@@ -1,0 +1,65 @@
+@import 'components/Content/Content.module.scss';
+
+.atendimento{
+    display: grid;       
+    margin: auto;
+
+    &__box{
+    padding: $padding-vertical 0; 
+
+    }
+
+    &__button{
+        width: 100%;
+        margin: 10px 0;
+        display: flex;
+        justify-content:center;
+        
+    }
+    &__button button{
+        background-color: green;       
+        border-radius: 10px;
+        color: white;
+        font-size: x-large;
+        width: fit-content;
+        padding: 8px;
+        cursor: pointer;
+
+    }
+    &__mapa{
+        display: grid;
+        padding-bottom: $padding-vertical;
+        margin: auto;
+    }
+    &__fotos{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: calc(0.3*$padding-vertical);
+        width:100%;
+        margin:auto;
+        
+    }
+    &__mini{
+        width:30%;
+        border-radius: 8px;
+        margin: calc(0.5*$padding-horizontal);
+        cursor: pointer;
+        box-shadow: $sombra; 
+    }
+}    
+
+@media screen and (min-width: 940px){
+    .atendimento{
+        display: flex;
+
+        &__box{
+        width:50%;
+        }
+        
+        &__mini{
+        width: 18%;
+    }
+}
+}

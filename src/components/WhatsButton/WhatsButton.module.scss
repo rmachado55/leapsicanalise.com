@@ -1,0 +1,24 @@
+@import 'styles/_variables.scss';
+
+.whats{
+    background-color: green;
+    display: flex;
+    border-radius: 12px;
+    position:fixed;
+    z-index: 90;
+    top: 90vh;
+    right: 1%;
+    color: white;
+    padding: 8px 8px 8px 8px;    
+    box-shadow: $sombra;
+    cursor : pointer;
+    width: fit-content;
+
+    &__text{
+        font-size: large;
+        display: flex;
+        overflow-wrap: anywhere;
+        text-align: right;
+        padding: 2px 2px 2px 4px;                
+    }
+}

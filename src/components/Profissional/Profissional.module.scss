@@ -1,0 +1,38 @@
+@import 'styles/variables.scss';
+@import 'components/Content/Content.module.scss';
+
+.profissional{
+    &__box1{        
+        justify-self: center;
+        margin: 0 0 $padding-vertical 0;
+        display: flex;
+    }
+    &__fotoMini{
+        width : 120px;
+        height: 120px;       
+        border-radius: 20px;
+        margin-right: 8px;
+        box-shadow: $sombra;
+        cursor: pointer;
+    }
+  
+}
+// Resposividade
+@media screen and (min-width: 940px){	
+
+    .profissional{
+        display:flex;
+    
+        &__box1{
+            width: 50%;
+            padding: 0 40px;
+            text-align: left;
+            border-right: 1px solid;
+            vertical-align: middle;
+        }
+        &__box2{
+            width: 50%;
+            padding: 0 40px;
+        }
+    }    
+}

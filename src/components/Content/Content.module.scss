@@ -1,0 +1,55 @@
+@import 'styles/_variables.scss';
+
+.content{
+    margin: $padding-vertical $padding-horizontal;
+    background-color: $cor-bg;
+    border-radius: 20px;
+    color: $cor-secundaria;
+    padding: $padding-vertical $padding-horizontal;
+       
+    &__title{
+        font-size:xx-large;
+        padding: 0 0 $padding-vertical 0;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__subtitle{
+        font-size: x-large;
+        font-style: bold;
+        line-height: 120%;
+        text-align: center;
+    }
+    &__highlight{
+        font-size: x-large;
+        font-style: italic;
+        line-height: 120%;
+        text-align: center;
+    }
+    &__description{
+        font-size: x-large;
+        font-weight: 700;
+        line-height: 140%;
+        color: $cor-primaria;
+        text-align: center;
+    }
+    &__text{
+        font-size: large;
+        font-style: italic;
+        text-align: center;
+        line-height: 140%;
+    } 
+    & span {
+        margin: 10px;
+        font-size: small;
+        word-spacing: 0;
+    }
+
+    &__icons{
+        margin: auto;
+        color: inherit;
+        text-align: center;
+        padding: 20px 0 0 0;        
+    }
+    
+    
+}

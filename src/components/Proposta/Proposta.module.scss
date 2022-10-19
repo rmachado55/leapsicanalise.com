@@ -1,0 +1,33 @@
+@import 'styles/_variables.scss';
+@import 'components/Content/Content.module.scss';
+
+.proposta{
+    
+    &__expansivel{
+        font-style: italic;
+        text-align: center;
+        max-height: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        }
+         
+    &__button{
+        display: flex;
+        justify-content: center;
+    }
+    &__button button{
+        padding: $padding-horizontal;
+        border-radius: 8px;
+        margin-top: $padding-horizontal;
+    }
+}
+
+// Responsividade
+
+@media screen and (min-width: 600px){
+    .proposta{
+    width: 90%;
+    margin: auto;
+    font-size: x-large;
+  }
+  }

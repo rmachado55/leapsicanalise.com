@@ -1,0 +1,156 @@
+@import 'styles/_variables.scss';
+  
+.barraNavegacao{
+  
+  background-color: $cor-primaria;
+  border-radius: 0 0 10px 10px;
+  box-shadow: $sombra;
+  position: fixed;
+  top:0;
+  z-index: 99;
+  height: $navheigth;
+  width: 100%;
+  color: $cor-contraste;
+  padding: $padding-horizontal calc(2*$padding-horizontal);
+  
+}
+.marca{
+    font-size: xx-large;
+    font-style: italic;
+    font-family: 'Rouge Script', cursive;
+  }
+.subtitulo{
+    font-size: small;    
+  }
+
+// Animação Hamburguer
+  label .hamburguer__menu {
+    position: absolute;
+    right: 0.1px;
+    top: -100px;
+    z-index: 100;
+    width: 70px;
+    height : 170px;
+    background: $cor-secundaria;
+    border-radius: 0 0 12px 12px;
+    -webkit-transition: .7s ease-in-out;
+    transition: .3s ease-in-out;
+    box-shadow: $sombra;
+    cursor: pointer;
+    
+  }
+  
+  label .hamburger__botao {
+    position: absolute;
+    top: 130px;
+    right: 15px;
+    width: 40px;
+    height: 5px;
+    background: $cor-destaque;
+    display: block;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+  }
+  
+  label .hamburger__botao:after, label .hamburger__botao:before {
+    -webkit-transition: .9s ease-in-out;
+    transition: .9s ease-in-out;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: $cor-destaque;
+  }
+  
+  label .hamburger__botao:before { top: -13px; }
+  
+  label .hamburger__botao:after { bottom: -13px; }
+  
+  label input { display: none; }
+  
+  label input:checked + .hamburguer__menu {
+    box-shadow: 0 0 0 100vmax $cor-secundaria, 0 0 0 400vh $cor-secundaria;
+    
+  }
+  
+  label input:checked + .hamburguer__menu .hamburger__botao {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    
+  }
+  
+  label input:checked + .hamburguer__menu .hamburger__botao:after {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    bottom: 0;
+    
+  }
+  
+  label input:checked + .hamburguer__menu .hamburger__botao:before {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 0;
+    
+    
+  }
+  label ul {
+    z-index: 200;
+    position: fixed;
+    top: 45vh;
+    left: 50%;
+    width: 99%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    visibility:hidden;
+    -webkit-transition: .2s 0s ease-in-out;
+    transition: .2s 0s ease-in-out;
+    text-align: center;
+    
+  
+  h1{
+    padding:$padding-vertical;
+    font-size: xx-large;
+    color: $cor-contraste;
+    text-decoration: underline $cor-primaria 1px;
+    cursor: pointer;
+  }
+  }
+  label input:checked + .hamburguer__menu + .hamburguer__item {
+    visibility:visible;
+  }
+      
+  label a {
+    display: block;
+    color: $cor-primaria;
+    text-decoration: none;
+    
+  }
+
+  .hamburguer__quadro{
+    margin: auto;
+    margin-top: $padding-vertical;
+    width: 92vw;
+    border-style: solid;
+    border-width: 1px;
+    border-color: $cor-primaria;
+    border-radius: 20px;
+  }
+
+  .espaco{
+    height: calc(0.9*$navheigth);
+  }
+
+// Responsividade
+
+  @media screen and (min-width: 600px){
+    .barraNavegacao{
+    width: 80vw;
+
+  }
+    .hamburguer__quadro{
+      width: 60vw;
+    }
+  }

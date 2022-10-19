@@ -1,0 +1,31 @@
+@import 'styles/_variables.scss';
+
+.assinatura{
+    position: absolute;
+    text-align: left;
+    font-size: medium;
+    display: flex;
+    margin-top: calc(0.5*$padding-vertical);
+    right: 10vw;
+    padding-right: $padding-horizontal;
+        
+    &__foto{
+        width: calc(1.2*$padding-vertical);
+        height: 100%;
+        border-radius: 50%;
+        margin-right: $padding-horizontal;
+        box-shadow: $sombra;
+    }
+    &__texto p{
+        font-family: 'Rouge Script', cursive;
+        font-size: xx-large;
+        font-style: italic;
+        line-height: 100%;
+
+    }
+}
+
+.espaco{
+    height: 50px;
+}
+

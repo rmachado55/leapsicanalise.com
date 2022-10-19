@@ -1,0 +1,25 @@
+@import 'styles/_variables.scss';
+
+.rodape{
+    padding: $padding-vertical $padding-horizontal;
+    background-color: $cor-primaria;
+    text-align: center;
+    color: $cor-contraste;
+    font-size: small;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3), 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+    &__icons span{
+        padding: $padding-vertical 10px;
+        font-size: xx-large;   
+    }
+    & a{
+        color: white;
+    }
+}
+.copyright{
+    padding: 20px;
+    font-size: medium;
+    &__signature{
+        font-size: small;
+    }}

@@ -1,0 +1,21 @@
+[{
+    "arquivo": "01.jpg",
+    "mini": "01_mini.jpg",
+    "desc": "Espaço com Ar-Condicionado e banheiro"            
+},{
+    "arquivo": "02.jpg",
+    "mini": "02_mini.jpg",     
+    "desc": "Conforto e privacidade para sua sessão."
+},{
+    "arquivo": "03.jpg",
+    "mini": "03_mini.jpg",
+    "desc": "Localizado no MultiOffice, com várias vagas de estacionamento e rampa de acessibilidade"
+},{
+    "arquivo": "04.jpg",
+    "mini": "04_mini.jpg",
+    "desc": "Recepção e sala de espera"
+},{
+    "arquivo": "05.jpg",
+    "mini": "05_mini.jpg",
+    "desc": "Espaço para aguardar seu atendimento."
+}]

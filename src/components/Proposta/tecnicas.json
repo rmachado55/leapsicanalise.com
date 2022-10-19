@@ -1,0 +1,38 @@
+[
+    {
+    "nome" : "Psicanalise",
+    "chamada" : "A escuta que cura.",
+    "texto" : "Ao relatar seu sofrimento, manifestação de sintomas ou inquietudes por não corresponder ao que é esperado dele é levado a descoberta de possíveis origens e alívio através de um novo arranjo. Pontas afiadas que antes incomodavam passam a fazer parte de um encaixe perfeito.",
+    "key" : "psicanalise"
+},
+{
+    "nome" : "PNL",
+    "chamada" : "Programação Neuro-Linguística",
+    "texto" : "Mapeia os fundamentos e funcionamento das estruturas mentais. A dor pode ser um sinal de que é hora de mudar, no entanto essa mudança, muitas vezes parece muito difícil. A PNL busca entender as bases da formação de um pensamento, ações, sensações, crenças ou hábitos indesejados que são particulares e de infinitas combinações, que uma vez conhecidas serão exatamente os recursos que tornarão uma mudança mais acessível.",
+    "key" : "pnl"
+},
+{
+    "nome" : "CNV",
+    "chamada" : "Comunicação Não-Violenta",
+    "texto" : "Metodologia que estimula um novo olhar para o acontecimento, identificando sentimentos, necessidades não atendidas e aprendendo uma nova forma de se comunicar, aprendendo a formalizar um pedido com muito mais chance de ser atendido. A CNV estimula relacionamentos interpessoais baseados no respeito mútuo, transformando padrões de comunicação que geram discussões raiva e depressão muito comuns entre casais, pais e filhos.",
+    "key" : "cnv"
+},
+{
+    "nome" : "Logoterapia",
+    "chamada" : "Terapia a partir do sentido da vida",
+    "texto" : "Mapeia os fundamentos e funcionamento das estruturas mentais. A dor pode ser um sinal de que é hora de mudar, no entanto essa mudança, muitas vezes parece muito difícil. A PNL busca entender as bases da formação de um pensamento, ações, sensações, crenças ou hábitos indesejados que são particulares e de infinitas combinações, que uma vez conhecidas serão exatamente os recursos que tornarão uma mudança mais acessível.",
+    "key" : "logoterapia"
+},
+{
+    "nome" : "Terapias Breves",
+    "chamada" : "Tecnica da Cadeira Vazia, Linha do tempo, entre outras.",
+    "texto" : "Linha do Tempo – técnica psicoterapêutica que trabalha com a causa raiz de emoções, memórias passadas e projeção de metas para o futuro, é a forma como o inconsciente estrutura informações do passado, presente e futuro. O objetivo é proporcionar uma nova visão da emoção através do realinhamento das informações. Cadeira Vazia – Técnica da Gestalt indicada para questões de conflitos interpessoais que possibilita entrar em contato com seus sentimentos, vivenciando as questões dos conflitos de forma imaginária e ao mesmo tempo vivencial. O trabalho é desenvolvido primeiro reconhecendo as partes, sua importância e complexidade e a seguir integrá-las com o que cada uma delas tem à contribuir. Muitas vezes, algumas partes, uma vez ouvidas e reconhecidas, perdem a força e deixam de ser protagonistas ou incomodar, pelo simples razão de já terem cumprido sua função. O objetivo é possibilitar uma nova visão do conflito desenvolvendo a capacidade de lidar com o problema",
+    "key" : "breves"
+},
+{
+    "nome" : "Método Silva",
+    "chamada" : "Técnicas de controle da mente",
+    "texto" : "Método baseia-se no fato de que as percepções originam-se da utilização da imaginação.. Quando a capacidade de fazer imagens é direcionada de forma negativa, tudo a nossa volta fica negativo e sombrio. Quando dirigida de maneira positiva, seu mundo torna-se mais alegre e prazeroso. Aprendendo a usar uma imaginação dinâmica seremos capazes de potencializar nossos recursos mentais. Em um fato real ou numa imaginação ativa as mesmas áreas do cérebro são ativadas. Toda criação nasceu de uma ideia imaginada. Cada pessoa tem sua forma própria de utilizar os sentidos numa imaginação, é comum usarmos apenas um ou dois sentidos sem nos darmos conta, a prática de acrescentarmos os demais sentidos, à imaginação, tornamos ela muito mais real facilitando mudanças que outrora pareciam inatingíveis.",
+    "key" : "silva"
+}
+]
