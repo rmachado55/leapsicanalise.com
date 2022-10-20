@@ -8,8 +8,8 @@
         display: flex;
     }
     &__fotoMini{
-        width : 120px;
-        height: 120px;       
+        width : 140px;
+        height: 140px;       
         border-radius: 20px;
         margin-right: 8px;
         box-shadow: $sombra;
@@ -22,13 +22,13 @@
 
     .profissional{
         display:flex;
+        width:80%;
+        margin: auto;
     
         &__box1{
             width: 50%;
             padding: 0 40px;
-            text-align: left;
             border-right: 1px solid;
-            vertical-align: middle;
         }
         &__box2{
             width: 50%;

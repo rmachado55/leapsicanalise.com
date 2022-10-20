@@ -21,7 +21,7 @@ export default function Profissional () {
      <>     <div className={style.profissional}>
                 <div className={style.profissional__box1}>
                     <img src={LeaMini} onClick={() => setExibeFoto(true)} className={style.profissional__fotoMini} alt='Foto da Psicanalista Lea Machado sorrindo com um fundo azul e camisa listrada' />
-                    <h3 className={style.content__highlight}>Sociologa pela USP e Psicanalista.</h3>
+                    <h3 className={style.content__highlight}>Socióloga pela USP e Psicanalista.</h3>
                 </div>
                 <div className={style.profissional__box2}>
                     <h2 className={style.content__description}>Formações Complementares:</h2>

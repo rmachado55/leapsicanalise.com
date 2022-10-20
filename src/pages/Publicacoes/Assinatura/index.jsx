@@ -8,7 +8,7 @@ export default function Assinatura () {
             <img className={style.assinatura__foto}src={LeaMini} alt={'Foto da Léa Machado'}/>
         <div className={style.assinatura__texto}>
             <span>Escrito por:</span>
-            <p>Léa Machado</p>
+            <p>Lea Machado</p>
         </div>
         </div>
         <div className={style.espaco}></div>

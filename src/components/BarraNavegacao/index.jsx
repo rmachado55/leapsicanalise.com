@@ -16,10 +16,10 @@ export default function BarraNavegacao () {
         <ul className={style.hamburguer__item}>
         <p className={style.marca}>Como posso te ajudar?</p>
           <div className={style.hamburguer__quadro}>
-            <li onClick={() => (setChecked(false))}><Link to={'leapsicanalise/'}><h1>Home</h1></Link></li>
-            <li onClick={() => (setChecked(false))}><Link to={'leapsicanalise/sobre'}><h1>Sobre</h1></Link></li>
-            <li onClick={() => (setChecked(false))}><Link to={'leapsicanalise/contato'}><h1>Contato e Endereço</h1></Link></li>
-            <li onClick={() => (setChecked(false))}><Link to={"leapsicanalise/publicacoes"}><h1>Publicações</h1></Link></li>
+            <li onClick={() => (setChecked(false))}><Link to={'/'}><h1>Home</h1></Link></li>
+            <li onClick={() => (setChecked(false))}><Link to={'/sobre'}><h1>Sobre</h1></Link></li>
+            <li onClick={() => (setChecked(false))}><Link to={'/contato'}><h1>Contato e Endereço</h1></Link></li>
+            <li onClick={() => (setChecked(false))}><Link to={"/publicacoes"}><h1>Publicações</h1></Link></li>
            
           </div>
         </ul>

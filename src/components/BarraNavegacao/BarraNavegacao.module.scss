@@ -11,13 +11,12 @@
   height: $navheigth;
   width: 100%;
   color: $cor-contraste;
-  padding: $padding-horizontal calc(2*$padding-horizontal);
+  padding: 0 $padding-horizontal 0 calc(2*$padding-horizontal);
   
 }
 .marca{
     font-size: xx-large;
     font-style: italic;
-    font-family: 'Rouge Script', cursive;
   }
 .subtitulo{
     font-size: small;    
@@ -27,10 +26,10 @@
   label .hamburguer__menu {
     position: absolute;
     right: 0.1px;
-    top: -100px;
+    top: -110px;
     z-index: 100;
-    width: 70px;
-    height : 170px;
+    width: 60px;
+    height : 162px;
     background: $cor-secundaria;
     border-radius: 0 0 12px 12px;
     -webkit-transition: .7s ease-in-out;
@@ -42,10 +41,10 @@
   
   label .hamburger__botao {
     position: absolute;
-    top: 130px;
-    right: 15px;
-    width: 40px;
-    height: 5px;
+    top: 132px;
+    right: 14px;
+    width: 30px;
+    height: 4px;
     background: $cor-destaque;
     display: block;
     -webkit-transform-origin: center;
@@ -65,9 +64,9 @@
     background: $cor-destaque;
   }
   
-  label .hamburger__botao:before { top: -13px; }
+  label .hamburger__botao:before { top: -11px; }
   
-  label .hamburger__botao:after { bottom: -13px; }
+  label .hamburger__botao:after { bottom: -11px; }
   
   label input { display: none; }
   
