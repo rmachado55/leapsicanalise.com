@@ -15,7 +15,7 @@ return(
       <a href={item.chamada}>
         <img
         className="d-block w100"
-        src={`https:www.leapsicanalise.com/assets/banner/${item.chave}.jpg`}
+        src={`https://rmachado55.github.io/leapsicanalise/${item.chave}.jpg`}
         alt={`Foto de:${item.nome}`}/>
       <Carousel.Caption>
         <p>Clique aqui se quiser conversar sobre:</p>

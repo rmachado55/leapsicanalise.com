@@ -41,7 +41,7 @@ export default function Atendimento () {
             <div className={style.atendimento__fotos}>
             {Sala.map((foto) => {  return(
             
-            <img className={style.atendimento__mini} alt={`${foto.desc}`} src={`https://www.leapsicanalise.com/assets/sala/${foto.mini}`} onClick={() => seletorFoto(`https://www.leapsicanalise.com/assets/sala/${foto.arquivo}`, foto.desc)}/>
+            <img className={style.atendimento__mini} alt={`${foto.desc}`} src={`https://rmachado55.github.io/leapsicanalise/assets/sala/${foto.mini}`} onClick={() => seletorFoto(`https://https://rmachado55.github.io/leapsicanalise/assets/sala/${foto.arquivo}`, foto.desc)}/>
             
             )})}
             </div>
