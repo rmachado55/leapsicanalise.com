@@ -2,7 +2,7 @@
   "name": "leapsicanalise.com",
   "version": "1.0",
   "private": false,
-  "homepage": "https://rmachado55.github.io/leapsicanalise/",
+  "homepage": "https://www.leapsicanalise.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
