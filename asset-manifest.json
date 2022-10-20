@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/leapsicanalise.com/static/css/main.481c310c.css",
-    "main.js": "/leapsicanalise.com/static/js/main.17d08a34.js",
-    "static/media/diferencas.jpg": "/leapsicanalise.com/static/media/diferencas.188460d6e970a3d73abf.jpg",
-    "static/media/lea_machado.jpg": "/leapsicanalise.com/static/media/lea_machado.cac3de084d5ebe20b6db.jpg",
-    "static/media/lea_machado_mini.jpg": "/leapsicanalise.com/static/media/lea_machado_mini.8c08d85498e30ee7e838.jpg",
-    "static/media/empilhar.jpg": "/leapsicanalise.com/static/media/empilhar.218812e740f85af7a3a7.jpg",
-    "static/media/eu.jpg": "/leapsicanalise.com/static/media/eu.20fcaaf3d9933ca5c95b.jpg",
-    "index.html": "/leapsicanalise.com/index.html",
-    "main.481c310c.css.map": "/leapsicanalise.com/static/css/main.481c310c.css.map",
-    "main.17d08a34.js.map": "/leapsicanalise.com/static/js/main.17d08a34.js.map"
+    "main.css": "/static/css/main.481c310c.css",
+    "main.js": "/static/js/main.d1eeb1e8.js",
+    "static/media/diferencas.jpg": "/static/media/diferencas.188460d6e970a3d73abf.jpg",
+    "static/media/lea_machado.jpg": "/static/media/lea_machado.cac3de084d5ebe20b6db.jpg",
+    "static/media/lea_machado_mini.jpg": "/static/media/lea_machado_mini.8c08d85498e30ee7e838.jpg",
+    "static/media/empilhar.jpg": "/static/media/empilhar.218812e740f85af7a3a7.jpg",
+    "static/media/eu.jpg": "/static/media/eu.20fcaaf3d9933ca5c95b.jpg",
+    "index.html": "/index.html",
+    "main.481c310c.css.map": "/static/css/main.481c310c.css.map",
+    "main.d1eeb1e8.js.map": "/static/js/main.d1eeb1e8.js.map"
   },
   "entrypoints": [
     "static/css/main.481c310c.css",
-    "static/js/main.17d08a34.js"
+    "static/js/main.d1eeb1e8.js"
   ]
 }
