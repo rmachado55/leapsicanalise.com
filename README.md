@@ -1,6 +1,7 @@
 # SITE REAL DE PROFISSIONAL DA SAÚDE
 Site feito do zero desde o desenho, prototipação no Figma para aprovação com cliente (uma Psicanalista), desenvolvimento em React.Js e publicação em domínio já existente, incluindo otimizações para SEO e boa performance.
 www.leapsicanalise.com / Confira também no mobile ->
+
 ![qrcode](https://user-images.githubusercontent.com/94208335/197231482-316bf7ce-4751-4d59-984a-2f9e2f18bc5f.png)
 
 
