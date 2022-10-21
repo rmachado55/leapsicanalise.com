@@ -109,7 +109,7 @@
     text-align: center;
     
   
-  h1{
+  h4{
     padding:$padding-vertical;
     font-size: xx-large;
     color: $cor-contraste;
@@ -144,7 +144,7 @@
 
 // Responsividade
 
-  @media screen and (min-width: 600px){
+  @media screen and (min-width: $break){
     .barraNavegacao{
     width: 80vw;
 

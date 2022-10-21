@@ -16,15 +16,15 @@ export default function BarraNavegacao () {
         <ul className={style.hamburguer__item}>
         <p className={style.marca}>Como posso te ajudar?</p>
           <div className={style.hamburguer__quadro}>
-            <li onClick={() => (setChecked(false))}><Link to={'/'}><h1>Home</h1></Link></li>
-            <li onClick={() => (setChecked(false))}><Link to={'/sobre'}><h1>Sobre</h1></Link></li>
-            <li onClick={() => (setChecked(false))}><Link to={'/contato'}><h1>Contato e Endereço</h1></Link></li>
-            <li onClick={() => (setChecked(false))}><Link to={"/publicacoes"}><h1>Publicações</h1></Link></li>
+            <li onClick={() => (setChecked(false))}><Link to={'/'}><h4>Home</h4></Link></li>
+            <li onClick={() => (setChecked(false))}><Link to={'/sobre'}><h4>Sobre</h4></Link></li>
+            <li onClick={() => (setChecked(false))}><Link to={'/contato'}><h4>Contato e Endereço</h4></Link></li>
+            <li onClick={() => (setChecked(false))}><Link to={"/publicacoes"}><h4>Publicações</h4></Link></li>
            
           </div>
         </ul>
         </label>
       </nav>
-      <div className={style.espaco}></div>
+      <div className={style.espaco}><heading>Atendimento presencial e remoto para ansiedade, depressão, bulimia, cutting, relacionamento abusivo, pânico, inseguranças, dependência emocional entre outros"</heading></div>
       </>)
 }

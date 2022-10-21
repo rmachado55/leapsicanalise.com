@@ -24,7 +24,7 @@
 
 // Responsividade
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: $break){
     .proposta{
     width: 90%;
     margin: auto;

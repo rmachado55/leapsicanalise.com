@@ -1,0 +1,49 @@
+@import 'styles/_variables.scss';
+
+.queixa{
+    height: 60vh;
+    display: grid;
+    background-color: $cor-secundaria;
+    border-radius: 0 0 14px 14px;
+
+    & img{
+        height: 60vh;
+        width: 100vw;
+        object-fit: cover;
+        filter:blur(2px) opacity(40%);
+        border-radius: 0 0 14px 14px;
+        
+    }
+
+    &__titulo{
+        position: relative;
+        text-align: center;
+        top:-35vh;
+        margin: auto;
+        font-size: 45px;
+        font-weight: 700;
+        color: $cor-contraste;
+        text-shadow: 1px 1px grey;
+       
+    }
+
+    & p{
+        position: relative;
+        top: -25vh;
+        width: fit-content;
+        padding: 8px;
+        font-size: medium;
+        margin: auto;
+        border-radius: 8px;
+        color: $cor-contraste;
+    }
+
+}
+@media screen and (min-width: $break){
+	.queixa img{
+        width:80vw;
+    }
+    .queixa__titulo{
+        font-size: 70px;
+    }
+}

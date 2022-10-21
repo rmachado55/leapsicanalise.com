@@ -4,13 +4,21 @@
 .profissional{
     &__box1{        
         justify-self: center;
-        margin: 0 0 $padding-vertical 0;
+        width:80%;
+        margin: auto;
         display: flex;
+        padding: 0 0 40px 0;
+        justify-content: space-around;
+    }
+    &__box1 h1{
+        padding-top: 20px;
+        font-size:x-large;
     }
     &__fotoMini{
-        width : 140px;
-        height: 140px;       
-        border-radius: 20px;
+        width : 129px;
+        height: 139px;       
+        border-radius: 40%;
+        object-fit: fill;
         margin-right: 8px;
         box-shadow: $sombra;
         cursor: pointer;
@@ -18,21 +26,22 @@
   
 }
 // Resposividade
-@media screen and (min-width: 940px){	
+@media screen and (min-width: $break){	
 
     .profissional{
         display:flex;
-        width:80%;
+        width:90%;
         margin: auto;
     
         &__box1{
             width: 50%;
-            padding: 0 40px;
+            padding: 0 20px;
             border-right: 1px solid;
         }
+        
         &__box2{
             width: 50%;
-            padding: 0 40px;
+            padding: 0 20px;
         }
     }    
 }

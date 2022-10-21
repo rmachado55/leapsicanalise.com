@@ -36,7 +36,7 @@
 }
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: $break){
     .zoom{
     width: 60vw;
     top: 10vh;

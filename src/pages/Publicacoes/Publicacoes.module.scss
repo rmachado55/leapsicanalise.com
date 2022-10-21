@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: $break){
     .publicacoes{
         display:flex;
         width: 90%;

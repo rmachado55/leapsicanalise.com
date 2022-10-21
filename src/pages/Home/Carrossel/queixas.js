@@ -1,4 +1,4 @@
-export const ListaBanner = 
+export const Queixas = 
 
 [{
     "nome" : "Ansiedade",

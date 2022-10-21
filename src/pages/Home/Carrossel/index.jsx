@@ -1,18 +1,19 @@
-import style from './Banner.module.scss';
+import style from './Carrossel.module.scss';
 import Carousel from 'react-bootstrap/Carousel'
 import { CarouselItem } from 'react-bootstrap';
-import {ListaBanner} from './banner.js';
+import {Queixas} from './queixas.js';
 
-export default function Banner () {
+export default function Carrossel () {
 
 
 return(
 <div className={style.banner}>
 <Carousel>
 
-{ListaBanner.map((item) => {return(
+{Queixas.map((item) => {return(
   <CarouselItem key={item.chave}>
       <a href={item.chamada}>
+        <heading className={style.banner__heading}>{item.nome}</heading>
         <img
         className="d-block w100"
         src={`https://rmachado55.github.io/leapsicanalise.com/assets/banner/${item.chave}.jpg`}

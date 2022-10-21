@@ -10,10 +10,4 @@ $navheigth: 56px;
 
 $sombra: 0 2px 4px 0 rgba(0, 0, 0, 0.3), 0 6px 10px 0 rgba(0, 0, 0, 0.3);
 
-
-// Responsividade //
-@media screen and (min-width: 600px){
-	*{
-	$padding-horizontal:40px;
-    
-}}
+$break: 940px;
