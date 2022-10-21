@@ -8,6 +8,7 @@ import Rodape from 'components/Rodape';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import { Queixas } from 'pages/Home/Carrossel/queixas';
 import Queixa from 'pages/Queixa';
+import NaoEncontrada from 'pages/NaoEncontrada';
 
 
 export default function AppRouter() {
@@ -29,7 +30,7 @@ export default function AppRouter() {
             nome={queixa.nome}
             chave={queixa.chave}/>}/>
           )})}
-          
+          <Route path='*' element={<NaoEncontrada />} />
         </Routes>
         <Rodape />
       </Router>
