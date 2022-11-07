@@ -10,7 +10,6 @@ import { Queixas } from 'pages/Home/Carrossel/queixas';
 import Queixa from 'pages/Queixa';
 import NaoEncontrada from 'pages/NaoEncontrada';
 
-
 export default function AppRouter() {
   
   return (

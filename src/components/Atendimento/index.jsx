@@ -24,7 +24,7 @@ export default function Atendimento () {
         <div className={style.atendimento}>
             <div className={style.atendimento__box}>
                 <h2 className={style.content__description}>Agende seu horário:</h2>
-                <div className={style.atendimento__button}><a href='https://api.whatsapp.com/send?phone=5519981947889&text=Ol%C3%A1%20Lea%20Machado%2C%20v%C3%AD%20seu%20contato%20pelo%20site.' target='blank'><button className={style.atendimento__button}><SiWhatsapp color='inherit'/> (19) 98194-7889</button></a></div>
+                <div className={style.atendimento__button}><a href='/redirect.html' target='blank'><button className={style.atendimento__button}><SiWhatsapp color='inherit'/> (19) 98194-7889</button></a></div>
             </div>
             <div className={style.atendimento__box}>
                 <p className={style.content__description}>Endereço</p>

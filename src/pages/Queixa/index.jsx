@@ -12,8 +12,8 @@ export default function Queixa (props) {
         <heading className={style.queixa__titulo}>{props.nome}</heading>
         <p>Clique aqui se quiser conversar sobre isso.</p>
         </section></a>
-        <Proposta />
-        <Profissional />
-        <Atendimento />
+            <Proposta />
+            <Profissional />
+            <Atendimento />
         </>)
 }

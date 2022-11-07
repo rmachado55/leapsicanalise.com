@@ -12,15 +12,14 @@ return(
 
 {Queixas.map((item) => {return(
   <CarouselItem key={item.chave}>
-      <a href={item.chamada}>
-        <heading className={style.banner__heading}>{item.nome}</heading>
+      <a href='/redirect.html'>
         <img
         className="d-block w100"
         src={`https://rmachado55.github.io/leapsicanalise.com/assets/banner/${item.chave}.jpg`}
         alt={`Foto de:${item.nome}`}/>
       <Carousel.Caption>
         <p>Clique aqui se quiser conversar sobre:</p>
-        <h1>{item.nome}</h1>
+        <heading><h1>{item.nome}</h1></heading>
       </Carousel.Caption></a>   
   </CarouselItem>
 )})}
